@@ -1,3 +1,4 @@
+package contas.modelo;
 
 public class Conta {
 	
