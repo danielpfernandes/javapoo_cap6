@@ -1,4 +1,4 @@
-package contas;
+package br.com.caelum.contas;
 
 public class Banco {
 	private String nome;

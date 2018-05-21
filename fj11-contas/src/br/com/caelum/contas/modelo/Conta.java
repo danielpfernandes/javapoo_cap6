@@ -1,4 +1,9 @@
-package contas.modelo;
+/**
+ * Classe responsável por moldar as Contas do Banco
+ * @author Daniel Paiva Fernandes
+ */
+
+package br.com.caelum.contas.modelo;
 
 public class Conta {
 	
@@ -6,7 +11,12 @@ public class Conta {
 	private String titular;
 	private int numero;
 	private String agencia;
-
+	
+	/**
+	 * Metodo que incrementa o saldo.
+	 * @param valor
+	 */
+	
 	public void deposita (double valor) {
 		this.saldo += valor;
 	}
