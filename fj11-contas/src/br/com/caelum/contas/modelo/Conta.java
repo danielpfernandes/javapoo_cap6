@@ -13,8 +13,8 @@ public abstract class Conta {
 	private String agencia;
 
 	@Override
-	public String toString() {
-		return "[titular=" + titular + ", numero=" + numero + ", agencia=" + agencia + "]";
+	public String toString() {		
+		return "[titular=" + titular.toUpperCase() + ", numero=" + numero + ", agencia=" + agencia + "]";
 	}
 	
 	@Override
