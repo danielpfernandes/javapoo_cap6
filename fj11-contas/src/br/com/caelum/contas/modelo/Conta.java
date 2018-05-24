@@ -5,7 +5,7 @@
 
 package br.com.caelum.contas.modelo;
 
-public abstract class Conta {
+public abstract class Conta implements Comparable<Conta>{
 
 	protected double saldo;
 	private String titular;
@@ -82,5 +82,9 @@ public abstract class Conta {
 
 	public String getTipo() {
 		return "Conta";
+	}
+	
+	public int compareTo(Conta outraConta) {
+		return this.titular.compareTo(outraConta.titular);
 	}
 }
