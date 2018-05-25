@@ -1,0 +1,3 @@
+Conta Corrente,123,Banco Tal,João,0.0
+Conta Poupança,654,Real,Maria,0.0
+Conta Corrente,5,Itau,Fernanda,0.0

@@ -14,10 +14,11 @@ public class TestaEntrada {
 		BufferedReader br = new BufferedReader(isr);
 		String s = br.readLine();
 		
-		while (s != null) {
+		do {
 			System.out.println(s);
 			s = br.readLine();
-		}
+		} while (s != null);
+		
 		br.close();
 		//System.out.println(isr.read());
 		//System.out.println(br.readLine());
